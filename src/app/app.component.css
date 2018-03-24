@@ -1,0 +1,15 @@
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+#main {
+    height: 100vh;
+}
+
+#contenido {
+    height: 100%;
+    background: lightgreen;
+}

@@ -1,0 +1,14 @@
+#menu {
+    position: fixed;
+    top: 0;
+    left: 5px;
+    height: 100%;
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+}
+
+.vertical-space {
+    padding-top: 1em;
+}
