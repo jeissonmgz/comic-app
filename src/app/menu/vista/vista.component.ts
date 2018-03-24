@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PaginaService } from '../../services/vista/pagina.service';
 
 @Component({
   selector: 'app-vista',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VistaComponent implements OnInit {
 
-  constructor() { }
+  activo: boolean;
+
+  constructor(private paginaService: PaginaService) {
+    this.activo = true;
+   }
 
   ngOnInit() {
   }

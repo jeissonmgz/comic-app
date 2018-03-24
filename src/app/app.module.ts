@@ -9,6 +9,7 @@ import { FiguraComponent } from './menu/figura/figura.component';
 import { PropiedadesComponent } from './menu/propiedades/propiedades.component';
 import { PrincipalComponent } from './menu/principal/principal.component';
 
+import { PaginaService } from './services/vista/pagina.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { PrincipalComponent } from './menu/principal/principal.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    PaginaService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

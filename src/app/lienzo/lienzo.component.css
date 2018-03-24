@@ -1,5 +1,17 @@
+.centrar {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+}
+
+#marco {
+    background: whitesmoke;
+    width: 100%;
+    height: 100vh;
+}
+
 #area {
     background: lightgrey;
-    width: 100px;
-    height: 100px;
+    overflow: auto;
 }

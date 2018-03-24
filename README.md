@@ -1,7 +1,7 @@
 # ComicApp
 Este proyecto es para crear comics fácilmente.
 
-##Documentación de Angular
+## Documentación de Angular
 Este proyecto se genero con [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 Para correr en un servidor de desarrollo usar `ng serve` y navegar en `http://localhost:4200/`.
 
