@@ -22,6 +22,10 @@ export class LienzoComponent implements OnInit {
   }
 
   ngAfterViewInit(){
+    this.ajustarTamanio();
+  }
+
+  ajustarTamanio() {
     this.renderer.setStyle(
       this.areaDiv.nativeElement,
       'width', 
@@ -32,10 +36,6 @@ export class LienzoComponent implements OnInit {
       'height', 
       `${window.innerHeight - 200}px`
     );
-  }
-
-  ajustarTamanio() {
-    //
   }
 
 }
